@@ -1,0 +1,1209 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="CryptokiMan Manual">
+      
+      
+        <meta name="author" content="JayKim">
+      
+      
+        <link rel="canonical" href="https://jykim74.github.io/cryptoki_manaual/user_guide/MAINWINDOW_EN/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Main UI - CryptokiMan</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cryptokiman-main-window-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CryptokiMan" class="md-header__button md-logo" aria-label="CryptokiMan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CryptokiMan
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Main UI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CryptokiMan" class="md-nav__button md-logo" aria-label="CryptokiMan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CryptokiMan
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get_start.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main UI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main UI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-window-at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main window at a glance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Menus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        View
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cryptography" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cryptography
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Import
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Help
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-context-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Object context menu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-the-details-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading the details table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source files
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MENU_EN.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-window-at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main window at a glance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Menus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        View
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Module
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cryptography" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cryptography
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Import
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Help
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-context-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Object context menu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-the-details-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading the details table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source files
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cryptokiman-main-window-guide">CryptokiMan Main Window Guide</h1>
+<p>This guide explains the CryptokiMan main window and its menus. It is based on the window layout and behavior defined in <code>mainwindow.cpp</code>, <code>mainwindow.h</code>, and <code>mainwindow.ui</code>.</p>
+<p><img alt="CryptokiMan main window" src="../../images/mainwindow.png" /></p>
+<h2 id="main-window-at-a-glance">Main window at a glance</h2>
+<p>The main window is organized into three working areas:</p>
+<ol>
+<li><strong>Navigation tree (left):</strong> After a Cryptoki library is loaded, use this tree to browse its Cryptoki module, slots, tokens, mechanisms, sessions, and objects. Select a node to show its details or contents in the table.</li>
+<li><strong>Details and object table (right):</strong> Displays the fields and values for the selected tree item, or a list of objects. The table is read-only; select a row to inspect it, and double-click a row to open its detailed view. Right-click an object row for actions available for that object type.</li>
+<li><strong>Information and Log dock (bottom):</strong> The <strong>Information</strong> tab shows details for the current selection. The <strong>Log</strong> tab shows application and operation messages. The dock can be shown from <strong>File &gt; Show log tab</strong>.</li>
+</ol>
+<p>The navigation tree and table are separated by a horizontal splitter, so you can resize their relative widths. The bottom dock can be resized or hidden using the normal Qt dock controls. The status bar displays short status messages such as <strong>Ready</strong>.</p>
+<h2 id="getting-started">Getting started</h2>
+<ol>
+<li>Choose <strong>File &gt; Open...</strong> and select a PKCS #11 Cryptoki library provided by your token or HSM vendor. You can also drag a library file into the main window.</li>
+<li>Expand the tree and select a slot or token to review its information. Select <strong>Mechanisms</strong> to inspect supported cryptographic mechanisms, or open a session to work with token objects.</li>
+<li>Use <strong>Module &gt; Open Session</strong> to open a session on the selected token. Authenticate with <strong>Module &gt; Login</strong> when an operation requires an authenticated user.</li>
+<li>Select an object category or object in the tree to display its entries in the right-hand table. Use the <strong>Objects</strong>, <strong>Cryptography</strong>, <strong>Import</strong>, and <strong>Tools</strong> menus to perform supported operations.</li>
+<li>Review operation results and errors in the <strong>Information</strong> and <strong>Log</strong> tabs.</li>
+</ol>
+<p>Only one Cryptoki library can be loaded at a time. Use <strong>File &gt; Unload</strong> before opening a different library. Available actions depend on the selected token, module capabilities, object permissions, and license status.</p>
+<h2 id="menus">Menus</h2>
+<h3 id="file">File</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>New</strong></td>
+<td>Opens another CryptokiMan window.</td>
+</tr>
+<tr>
+<td><strong>Open...</strong></td>
+<td>Selects and loads a PKCS #11 Cryptoki library.</td>
+</tr>
+<tr>
+<td><strong>Unload</strong></td>
+<td>Unloads the currently loaded library.</td>
+</tr>
+<tr>
+<td><strong>Show log tab</strong></td>
+<td>Shows the bottom Information and Log dock.</td>
+</tr>
+<tr>
+<td><strong>Recent Files</strong></td>
+<td>Reopens a recently loaded Cryptoki library. Up to ten recent entries are kept.</td>
+</tr>
+<tr>
+<td><strong>Quit</strong></td>
+<td>Exits CryptokiMan.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="view">View</h3>
+<p>The <strong>View</strong> menu controls which buttons appear on the toolbars. Its submenus group checkable actions under <strong>File ToolBar</strong>, <strong>Module ToolBar</strong>, <strong>Object ToolBar</strong>, <strong>Cryptogram ToolBar</strong>, <strong>Import ToolBar</strong>, <strong>Tools ToolBar</strong>, and <strong>Help ToolBar</strong>. Checking a command displays its button on the corresponding toolbar; clearing it hides the button. The command remains available from its main menu. This menu is created when the application has a valid license.</p>
+<h3 id="module">Module</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Initialize</strong></td>
+<td>Initializes the Cryptoki module (<code>C_Initialize</code>).</td>
+</tr>
+<tr>
+<td><strong>Finalize</strong></td>
+<td>Finalizes the module (<code>C_Finalize</code>) and releases its state.</td>
+</tr>
+<tr>
+<td><strong>Open Session</strong></td>
+<td>Opens a session on the selected token (<code>C_OpenSession</code>).</td>
+</tr>
+<tr>
+<td><strong>Close Session</strong></td>
+<td>Closes the selected session (<code>C_CloseSession</code>).</td>
+</tr>
+<tr>
+<td><strong>Close All Sessions</strong></td>
+<td>Closes all sessions for the selected token (<code>C_CloseAllSessions</code>).</td>
+</tr>
+<tr>
+<td><strong>Login</strong></td>
+<td>Authenticates to the token in the selected session (<code>C_Login</code>).</td>
+</tr>
+<tr>
+<td><strong>Logout</strong></td>
+<td>Ends the authenticated state for the selected session (<code>C_Logout</code>).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="objects">Objects</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Generate Key Pair</strong></td>
+<td>Generates a public/private key pair on the token (<code>C_GenerateKeyPair</code>).</td>
+</tr>
+<tr>
+<td><strong>Generate Key</strong></td>
+<td>Generates a secret key on the token (<code>C_GenerateKey</code>).</td>
+</tr>
+<tr>
+<td><strong>Create Data</strong></td>
+<td>Creates a data object using the supplied attributes.</td>
+</tr>
+<tr>
+<td><strong>Create RSA Public Key / Create RSA Private Key</strong></td>
+<td>Creates an RSA key object using supplied key attributes.</td>
+</tr>
+<tr>
+<td><strong>Create ECDSA Public Key / Create ECDSA Private Key</strong></td>
+<td>Creates an elliptic-curve key object, commonly used for ECDSA.</td>
+</tr>
+<tr>
+<td><strong>Create EDDSA Public Key / Create EDDSA Private Key</strong></td>
+<td>Creates an Edwards-curve digital-signature key object.</td>
+</tr>
+<tr>
+<td><strong>Create DSA Public Key / Create DSA Private Key</strong></td>
+<td>Creates a DSA key object using supplied key attributes.</td>
+</tr>
+<tr>
+<td><strong>Create PQC Public Key / Create PQC Private Key</strong></td>
+<td>Creates a post-quantum cryptography key object supported by the module.</td>
+</tr>
+<tr>
+<td><strong>Create Key</strong></td>
+<td>Creates a key object from a user-specified template.</td>
+</tr>
+<tr>
+<td><strong>Destroy Object</strong></td>
+<td>Deletes the selected object from the token (<code>C_DestroyObject</code>).</td>
+</tr>
+<tr>
+<td><strong>Edit Object</strong></td>
+<td>Edits attributes of the selected object, subject to token permissions.</td>
+</tr>
+<tr>
+<td><strong>Edit Attribute List</strong></td>
+<td>Edits a list of attributes for an object.</td>
+</tr>
+<tr>
+<td><strong>Copy Object</strong></td>
+<td>Creates a copy of the selected object, optionally using changed attributes (<code>C_CopyObject</code>).</td>
+</tr>
+<tr>
+<td><strong>Find Objects</strong></td>
+<td>Searches the selected session for objects matching specified attributes.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cryptography">Cryptography</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Random</strong></td>
+<td>Generates random bytes using the token (<code>C_GenerateRandom</code>).</td>
+</tr>
+<tr>
+<td><strong>Digest</strong></td>
+<td>Computes a message digest with a mechanism supported by the module.</td>
+</tr>
+<tr>
+<td><strong>Signature</strong></td>
+<td>Signs data using a selected private key and signature mechanism.</td>
+</tr>
+<tr>
+<td><strong>Verify</strong></td>
+<td>Verifies a signature against data using a selected public key and mechanism.</td>
+</tr>
+<tr>
+<td><strong>Encrypt</strong></td>
+<td>Encrypts data using a selected key and supported mechanism.</td>
+</tr>
+<tr>
+<td><strong>Decrypt</strong></td>
+<td>Decrypts data using a selected key and supported mechanism.</td>
+</tr>
+<tr>
+<td><strong>HSM Manage</strong></td>
+<td>Opens the HSM management interface for supported device operations.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="import">Import</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Import certificate</strong></td>
+<td>Imports a certificate and creates a certificate object on the token.</td>
+</tr>
+<tr>
+<td><strong>Import PFX</strong></td>
+<td>Imports a PKCS #12/PFX bundle, which can contain certificates and a private key.</td>
+</tr>
+<tr>
+<td><strong>Import Private Key</strong></td>
+<td>Imports a supported private-key file and creates a key object on the token.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tools">Tools</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Initialize Token</strong></td>
+<td>Initializes a token (<code>C_InitToken</code>), setting its label and security-officer PIN. Token initialization can erase existing contents.</td>
+</tr>
+<tr>
+<td><strong>Operation State</strong></td>
+<td>Reads or restores the state of an ongoing cryptographic operation when supported.</td>
+</tr>
+<tr>
+<td><strong>Set PIN</strong></td>
+<td>Changes a token user's PIN (<code>C_SetPIN</code>).</td>
+</tr>
+<tr>
+<td><strong>Init PIN</strong></td>
+<td>Initializes the user PIN, typically after a security-officer login (<code>C_InitPIN</code>).</td>
+</tr>
+<tr>
+<td><strong>Wrap Key</strong></td>
+<td>Exports a key in wrapped (encrypted) form using a wrapping key and supported mechanism.</td>
+</tr>
+<tr>
+<td><strong>Unwrap Key</strong></td>
+<td>Imports a wrapped key and creates a key object using an unwrapping key and template.</td>
+</tr>
+<tr>
+<td><strong>Derive Key</strong></td>
+<td>Derives a new key from a base key using a supported mechanism.</td>
+</tr>
+<tr>
+<td><strong>Type Name</strong></td>
+<td>Opens the type-name utility for PKCS #11 type information.</td>
+</tr>
+<tr>
+<td><strong>Make CSR</strong></td>
+<td>Creates a certificate signing request using a selected key and request fields.</td>
+</tr>
+<tr>
+<td><strong>CAVP</strong></td>
+<td>Opens the Cryptographic Algorithm Validation Program utility for supported validation operations.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="help">Help</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Clear Log</strong></td>
+<td>Clears the messages displayed in the Log tab.</td>
+</tr>
+<tr>
+<td><strong>Log</strong></td>
+<td>Toggles log output on or off.</td>
+</tr>
+<tr>
+<td><strong>Settings</strong></td>
+<td>Opens CryptokiMan application settings.</td>
+</tr>
+<tr>
+<td><strong>License Information</strong></td>
+<td>Displays license details and status.</td>
+</tr>
+<tr>
+<td><strong>Bug or Issue Report</strong></td>
+<td>Opens the project issue-reporting destination.</td>
+</tr>
+<tr>
+<td><strong>Q and A</strong></td>
+<td>Opens the project's question-and-answer or discussion destination.</td>
+</tr>
+<tr>
+<td><strong>About CryptokiMan</strong></td>
+<td>Displays application information.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="object-context-menu">Object context menu</h2>
+<p>Right-click an object row in the table to see commands for its type. The available set differs for certificates, public keys, private keys, secret keys, and data objects.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>View Object</strong></td>
+<td>Displays the selected object's attributes and details.</td>
+</tr>
+<tr>
+<td><strong>Edit Attribute / Edit AttributeList</strong></td>
+<td>Edits one attribute or the object's attribute list.</td>
+</tr>
+<tr>
+<td><strong>Delete Object</strong></td>
+<td>Destroys the selected token object.</td>
+</tr>
+<tr>
+<td><strong>View Certificate</strong></td>
+<td>Displays certificate information.</td>
+</tr>
+<tr>
+<td><strong>Export Certficate</strong></td>
+<td>Exports the selected certificate.</td>
+</tr>
+<tr>
+<td><strong>Verify / Encrypt</strong></td>
+<td>Uses the selected public key in a signature-verification or encryption operation.</td>
+</tr>
+<tr>
+<td><strong>Export PublicKey / View PublicKey</strong></td>
+<td>Exports or displays the selected public key.</td>
+</tr>
+<tr>
+<td><strong>Sign / Decrypt</strong></td>
+<td>Uses the selected private key in a signing or decryption operation.</td>
+</tr>
+<tr>
+<td><strong>Export PrivateKey / View PrivateKey</strong></td>
+<td>Exports or displays the selected private key, if permitted.</td>
+</tr>
+<tr>
+<td><strong>Make CSR</strong></td>
+<td>Creates a CSR using the selected private key.</td>
+</tr>
+<tr>
+<td><strong>Copy Object</strong></td>
+<td>Copies the selected object.</td>
+</tr>
+</tbody>
+</table>
+<p>Secret-key rows may offer <strong>Sign</strong>, <strong>Verify</strong>, <strong>Encrypt</strong>, and <strong>Decrypt</strong>. Data-object rows offer <strong>Copy Object</strong> in addition to the general object actions. Context actions may be disabled when the active license does not allow them.</p>
+<h2 id="reading-the-details-table">Reading the details table</h2>
+<p>Information tables use <strong>Field</strong> and <strong>Value</strong> columns for general properties. Depending on the selected tree item, the table can show Cryptoki library details, slot or token properties, supported mechanisms, session state, object attributes, certificate fields, or key information. Selecting a listed mechanism or object may show additional details in the Information tab or an object-specific view.</p>
+<h2 id="source-files">Source files</h2>
+<ul>
+<li><code>mainwindow.ui</code> defines the base Qt main-window shell: menu bar, initial toolbar, central widget, and status bar.</li>
+<li><code>mainwindow.cpp</code> creates the runtime menus and toolbars, builds the tree/table and bottom dock, loads libraries, and implements the table context menu.</li>
+<li><code>mainwindow.h</code> declares the main-window interface, slots, view controls, data views, and UI state.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
