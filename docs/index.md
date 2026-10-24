@@ -1,17 +1,44 @@
-# Welcome to MkDocs
+---
+layout: post
+title: "CryptokiMan ( PKCS#11 Cryptoki Manager )"
+tags: [Cryptoki, CryptokiMan, ECDSA, HSM, PKCS#11, PKI, RSA]
+category: Software
+---
+This program is a PKCS#11 module Cryptoki library management program.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The file can be downloaded from this page link (size is about 30M)
+Actually, the module test was done with the library downloaded from https://www.opendnssec.org/softhsm/.
+This is a program I made personally, so if you have any questions or bugs, use [Google Groups]( https://groups.google.com/g/cryptokiman, "Google Groups" )
 
-## Commands
+[[Download] CryptokiMan Version 2.3.2 (Win64)](https://jykim74.github.io/msi/CryptokiMan-enV232.msi "CryptokiMan")
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[[Download] CryptokiMan Version 2.3.2 (MacOS)](https://jykim74.github.io/dmg/CryptokiManV232.dmg, "CryptokiMan")
 
-## Project layout
+[[Download] CryptokiMan Version 2.3.2 (Linux64)](https://jykim74.github.io/zip/CryptokiManV232.zip, "CryptokiMan")
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+If you would like to receive a license, simply write a request in [Free License Request](https::/jykim7.mycafe24.com/user_reg.php) and you can receive a trial (30-day) license.
+Of course, you can apply for a license multiple times.
+
+This is a [Manual link]( https://jykim74.tistory.com/category/Manual/CryptokiMan "CryptokiMan Manual")  to the Korean manual page.
+Although it is lacking, the manual page supports a translator.
+
+## Licensed or not licensed
+
+|classification|License Version|Unlicensed Version|
+|---|---|---|
+| RSA,ECC,DSA Key Create | O | X |
+| Random | O | X |
+| HASH, HMAC, Sign, Encrypt | O | X |
+| Import | O | X |
+| PIN Init, Set | O | X |
+| Wrap, Unwrap, Derive | O | X |
+| Object Edit | O | X |
+| Object Delete | O | X |
+| Make CSR | O | X |
+| PriKey PubKey View | O | X |
+| PriKey PubKey Export | O | X |
+
+
+[Screen Shot]
+
+![cryptokiman](https://github.com/user-attachments/assets/6f6cab3e-1634-44e1-b3aa-edfbb889e641)

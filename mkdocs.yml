@@ -1,4 +1,70 @@
-site_name: My Docs
+site_name: CryptokiMan
+site_url: https://jykim74.github.io/cryptoki_manaual
+site_description: CryptokiMan Manual
+site_author: JayKim
 
 theme:
-  name: readthedocs
+  name: material
+  analytics:
+    gtag: G-287S0CKBNS
+
+nav:
+  - Home: index.md
+  - Getting Started: get_start.md
+  - User Guide:
+    - Main UI: user_guide/MAINWINDOW_EN.md
+    - Menu: user_guide/MENU_EN.md
+
+    - Module:
+      - Open Session: user_guide/OPEN_SESSION_DLG_EN.md
+      - Close Session: user_guide/CLOSE_SESSION_DLG_EN.md
+      - Login: user_guide/LOGIN_DLG_EN.md
+      - Logout: user_guide/LOGOUT_DLG_EN.md
+
+    - Objects:
+      - Generate Key Pair: user_guide/GEN_KEYPAIR_DLG_EN.md
+      - Generate Key: user_guide/GEN_KEY_DLG_EN.md
+      - Create Data: user_guide/CREATE_DATA_DLG_EN.md
+      - Create RSA Public Key: user_guide/CREATE_RSA_PUB_KEY_DLG_EN.md
+      - Create RSA Private Key: user_guide/CREATE_RSA_PRI_KEY_DLG_EN.md
+      - Create ECDSA Public Key: user_guide/CREATE_EC_PUB_KEY_DLG_EN.md
+      - Create ECDSA Private Key: user_guide/CREATE_EC_PRI_KEY_DLG_EN.md
+      - Create DSA Public Key: user_guide/CREATE_DSA_PUB_KEY_DLG_EN.md
+      - Create DSA Private Key: user_guide/CREATE_DSA_PRI_KEY_DLG_EN.md
+      - Create PQC Public Key: user_guide/CREATE_PQC_PUB_KEY_DLG_EN.md
+      - Create PQC Private Key: user_guide/CREATE_PQC_PRI_KEY_DLG_EN.md
+      - Create Key: user_guide/CREATE_KEY_DLG_EN.md
+      - Destroy Object: user_guide/DEL_OBJECT_DLG_EN.md
+      - Edit Object: user_guide/EDIT_ATTRIBUTE_DLG_EN.md
+      - Edit Attribute List: user_guide/EDIT_ATTRIBUTE_LIST_DLG_EN.md
+      - Copy Object: user_guide/COPY_OBJECT_DLG_EN.md
+      - Find Objects: user_guide/FIND_OBJECT_DLG_EN.md
+
+    - Cryptography:
+      - Random: user_guide/RAND_DLG_EN.md
+      - Digest: user_guide/DIGEST_DLG_EN.md
+      - Signature: user_guide/SIGN_DLG_EN.md
+      - Verify: user_guide/VERIFY_DLG_EN.md
+      - Encrypt: user_guide/ENCRYPT_DLG_EN.md
+      - Decrypt: user_guide/DECRYPT_DLG_EN.md
+      - HSM Manage: user_guide/HSM_MAN_DLG_EN.md
+
+    - Import:
+      - Import certificate: user_guide/IMPORT_CERT_DLG_EN.md
+      - Import PFX: user_guide/IMPORT_PFX_DLG_EN.md
+      - Import Private Key: user_guide/IMPORT_PRI_KEY_DLG_EN.md
+
+    - Tools:
+      - Initialize Token: user_guide/INIT_TOKEN_DLG_EN.md
+      - Operation State: user_guide/OPER_STATE_DLG_EN.md
+      - Set PIN: user_guide/SET_PIN_DLG_EN.md
+      - Init PIN: user_guide/INIT_PIN_DLG_EN.md
+      - Wrap Key: user_guide/WRAP_KEY_DLG_EN.md
+      - Unwrap Key: user_guide/UNWRAP_KEY_DLG_EN.md
+      - Derive Key: user_guide/DERIVE_KEY_DLG_EN.md
+      - Type Name: user_guide/TYPE_NAME_DLG_EN.md
+      - CAVP: user_guide/CAVP_DLG_EN.md
+
+    - Help:
+      - Settings: user_guide/SETTINGS_DLG_EN.md
+      - License Information: user_guide/LCN_INFO_DLG_EN.md
