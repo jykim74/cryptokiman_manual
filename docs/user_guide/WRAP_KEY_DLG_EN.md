@@ -1,7 +1,5 @@
 # Wrap Key Dialog
 
-This guide describes the dialog implemented by `wrap_key_dlg.cpp`, `wrap_key_dlg.h`, and `wrap_key_dlg.ui`.
-
 ![Wrap Key Dialog](../images/wrap_key_dlg.png)
 
 ## Purpose

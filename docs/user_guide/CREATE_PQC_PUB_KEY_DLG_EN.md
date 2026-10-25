@@ -1,7 +1,5 @@
 # Create PQC Public Key Dialog
 
-This guide describes the dialog implemented by `create_pqc_pub_key_dlg.cpp`, `create_pqc_pub_key_dlg.h`, and `create_pqc_pub_key_dlg.ui`.
-
 ![Create PQC Public Key Dialog](../images/create_pqc_pub_key_dlg.png)
 
 ## Purpose

@@ -1,6 +1,5 @@
 # Create DSA Public Key Dialog
 
-This guide describes the dialog implemented by `create_dsa_pub_key_dlg.cpp`, `create_dsa_pub_key_dlg.h`, and `create_dsa_pub_key_dlg.ui`.
 
 ![Create DSA Public Key Dialog](../images/create_dsa_pub_key_dlg.png)
 

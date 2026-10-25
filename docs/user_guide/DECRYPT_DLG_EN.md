@@ -1,7 +1,5 @@
 # Decrypt Dialog
 
-This guide describes the dialog implemented by `decrypt_dlg.cpp`, `decrypt_dlg.h`, and `decrypt_dlg.ui`.
-
 ![Decrypt Dialog](../images/decrypt_dlg.png)
 
 ## Purpose

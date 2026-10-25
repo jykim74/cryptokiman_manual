@@ -1,6 +1,5 @@
 # Digest Dialog
 
-This guide describes the dialog implemented by `digest_dlg.cpp`, `digest_dlg.h`, and `digest_dlg.ui`.
 
 ![Digest Dialog](../images/digest_dlg.png)
 

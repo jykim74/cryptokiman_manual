@@ -1,7 +1,5 @@
 # Copy Object Dialog
 
-This guide describes the dialog implemented by `copy_object_dlg.cpp`, `copy_object_dlg.h`, and `copy_object_dlg.ui`.
-
 ![Copy Object Dialog](../images/copy_object_dlg.png)
 
 ## Purpose

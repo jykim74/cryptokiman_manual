@@ -1,7 +1,5 @@
 # Settings Dialog
 
-This guide describes the dialog implemented by `settings_dlg.cpp`, `settings_dlg.h`, and `settings_dlg.ui`.
-
 ![Settings Dialog](../images/settings_dlg.png)
 
 ## Purpose

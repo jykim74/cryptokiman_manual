@@ -1,7 +1,5 @@
 # Create RSA Public Key Dialog
 
-This guide describes the dialog implemented by `create_rsa_pub_key_dlg.cpp`, `create_rsa_pub_key_dlg.h`, and `create_rsa_pub_key_dlg.ui`.
-
 ![Create RSA Public Key Dialog](../images/create_rsa_pub_key_dlg.png)
 
 ## Purpose

@@ -1,7 +1,5 @@
 # Initialize Token Dialog
 
-This guide describes the dialog implemented by `init_token_dlg.cpp`, `init_token_dlg.h`, and `init_token_dlg.ui`.
-
 ![Initialize Token Dialog](../images/init_token_dlg.png)
 
 ## Purpose

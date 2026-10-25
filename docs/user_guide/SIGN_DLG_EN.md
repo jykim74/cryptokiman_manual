@@ -1,7 +1,5 @@
 # Sign Data Dialog
 
-This guide describes the dialog implemented by `sign_dlg.cpp`, `sign_dlg.h`, and `sign_dlg.ui`.
-
 ![Sign Data Dialog](../images/sign_dlg.png)
 
 ## Purpose

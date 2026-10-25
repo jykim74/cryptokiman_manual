@@ -1,6 +1,5 @@
 # Delete Object Dialog
 
-This guide describes the dialog implemented by `del_object_dlg.cpp`, `del_object_dlg.h`, and `del_object_dlg.ui`.
 
 ![Delete Object Dialog](../images/del_object_dlg.png)
 

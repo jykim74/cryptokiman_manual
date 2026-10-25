@@ -1,7 +1,5 @@
 # Create Data Object Dialog
 
-This guide describes the dialog implemented by `create_data_dlg.cpp`, `create_data_dlg.h`, and `create_data_dlg.ui`.
-
 ![Create Data Object Dialog](../images/create_data_dlg.png)
 
 ## Purpose

@@ -1,7 +1,5 @@
 # Close Session Dialog
 
-This guide describes the dialog implemented by `close_session_dlg.cpp`, `close_session_dlg.h`, and `close_session_dlg.ui`.
-
 ![Close Session dialog](../images/close_session_dlg.png)
 
 ## Purpose

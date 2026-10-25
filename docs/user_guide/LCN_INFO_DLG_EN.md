@@ -1,7 +1,5 @@
 # License Information Dialog
 
-This guide describes the dialog implemented by `lcn_info_dlg.cpp`, `lcn_info_dlg.h`, and `lcn_info_dlg.ui`.
-
 ![License Information Dialog](../images/lcn_info_dlg.png)
 
 ## Purpose

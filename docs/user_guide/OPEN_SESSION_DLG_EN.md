@@ -1,7 +1,5 @@
 # Open Session Dialog
 
-This guide describes the dialog implemented by `open_session_dlg.cpp`, `open_session_dlg.h`, and `open_session_dlg.ui`.
-
 ![Open Session dialog](../images/open_session_dlg.png)
 
 ## Purpose

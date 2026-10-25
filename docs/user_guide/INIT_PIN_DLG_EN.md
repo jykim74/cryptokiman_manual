@@ -1,7 +1,5 @@
 # Initialize User PIN Dialog
 
-This guide describes the dialog implemented by `init_pin_dlg.cpp`, `init_pin_dlg.h`, and `init_pin_dlg.ui`.
-
 ![Initialize User PIN Dialog](../images/init_pin_dlg.png)
 
 ## Purpose

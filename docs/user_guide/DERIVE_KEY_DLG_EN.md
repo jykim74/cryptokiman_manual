@@ -1,7 +1,5 @@
 # Derive Key Dialog
 
-This guide describes the dialog implemented by `derive_key_dlg.cpp`, `derive_key_dlg.h`, and `derive_key_dlg.ui`.
-
 ![Derive Key Dialog](../images/derive_key_dlg.png)
 
 ## Purpose

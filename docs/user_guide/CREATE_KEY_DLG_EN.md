@@ -1,6 +1,5 @@
 # Create Key Object Dialog
 
-This guide describes the dialog implemented by `create_key_dlg.cpp`, `create_key_dlg.h`, and `create_key_dlg.ui`.
 
 ![Create Key Object Dialog](../images/create_key_dlg.png)
 

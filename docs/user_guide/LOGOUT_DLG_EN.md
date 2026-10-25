@@ -1,6 +1,5 @@
 # Logout Dialog
 
-This guide describes the dialog implemented by `logout_dlg.cpp`, `logout_dlg.h`, and `logout_dlg.ui`.
 
 ![Logout dialog](../images/logout_dlg.png)
 

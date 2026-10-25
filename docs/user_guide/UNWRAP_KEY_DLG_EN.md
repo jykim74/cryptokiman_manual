@@ -1,7 +1,5 @@
 # Unwrap Key Dialog
 
-This guide describes the dialog implemented by `unwrap_key_dlg.cpp`, `unwrap_key_dlg.h`, and `unwrap_key_dlg.ui`.
-
 ![Unwrap Key Dialog](../images/unwrap_key_dlg.png)
 
 ## Purpose

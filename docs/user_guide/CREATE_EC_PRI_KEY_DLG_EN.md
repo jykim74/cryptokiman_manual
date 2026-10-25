@@ -1,7 +1,5 @@
 # Create ECDSA Private Key Dialog
 
-This guide describes the dialog implemented by `create_ec_pri_key_dlg.cpp`, `create_ec_pri_key_dlg.h`, and `create_ec_pri_key_dlg.ui`.
-
 ![Create ECDSA Private Key Dialog](../images/create_ec_pri_key_dlg.png)
 
 ## Purpose

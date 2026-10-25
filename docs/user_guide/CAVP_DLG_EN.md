@@ -1,7 +1,5 @@
 # CAVP Test Utility
 
-This guide describes the dialog implemented by `cavp_dlg.cpp`, `cavp_dlg.h`, and `cavp_dlg.ui`.
-
 ![CAVP Test Utility](../images/cavp_dlg.png)
 
 ## Purpose

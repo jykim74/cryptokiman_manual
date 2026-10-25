@@ -1,7 +1,5 @@
 # Generate Key Pair Dialog
 
-This guide describes the dialog implemented by `gen_key_pair_dlg.cpp`, `gen_key_pair_dlg.h`, and `gen_key_pair_dlg.ui`.
-
 ![Generate Key Pair Dialog](../images/gen_keypair_dlg.png)
 
 ## Purpose

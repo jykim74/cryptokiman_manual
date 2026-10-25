@@ -1,7 +1,5 @@
 # Operation State Dialog
 
-This guide describes the dialog implemented by `oper_state_dlg.cpp`, `oper_state_dlg.h`, and `oper_state_dlg.ui`.
-
 ![Operation State Dialog](../images/oper_state_dlg.png)
 
 ## Purpose

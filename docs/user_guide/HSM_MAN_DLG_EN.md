@@ -1,7 +1,5 @@
 # HSM Management Dialog
 
-This guide describes the dialog implemented by `hsm_man_dlg.cpp`, `hsm_man_dlg.h`, and `hsm_man_dlg.ui`.
-
 ![HSM Management Dialog](../images/hsm_man_dlg.png)
 
 ## Purpose

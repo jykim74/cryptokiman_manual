@@ -1,7 +1,5 @@
 # Type Name Utility
 
-This guide describes the dialog implemented by `type_name_dlg.cpp`, `type_name_dlg.h`, and `type_name_dlg.ui`.
-
 ![Type Name Utility](../images/type_name_dlg.png)
 
 ## Purpose

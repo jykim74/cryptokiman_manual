@@ -1,7 +1,5 @@
 # Change PIN Dialog
 
-This guide describes the dialog implemented by `set_pin_dlg.cpp`, `set_pin_dlg.h`, and `set_pin_dlg.ui`.
-
 ![Change PIN Dialog](../images/set_pin_dlg.png)
 
 ## Purpose

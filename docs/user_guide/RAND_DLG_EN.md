@@ -1,7 +1,5 @@
 # Random Data Dialog
 
-This guide describes the dialog implemented by `rand_dlg.cpp`, `rand_dlg.h`, and `rand_dlg.ui`.
-
 ![Random Data Dialog](../images/rand_dlg.png)
 
 ## Purpose

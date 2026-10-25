@@ -1,7 +1,5 @@
 # Verify Signature Dialog
 
-This guide describes the dialog implemented by `verify_dlg.cpp`, `verify_dlg.h`, and `verify_dlg.ui`.
-
 ![Verify Signature Dialog](../images/verify_dlg.png)
 
 ## Purpose

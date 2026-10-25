@@ -1,6 +1,5 @@
 # Login Dialog
 
-This guide describes the dialog implemented by `login_dlg.cpp`, `login_dlg.h`, and `login_dlg.ui`.
 
 ![Login dialog](../images/login_dlg.png)
 

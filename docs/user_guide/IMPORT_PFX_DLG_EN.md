@@ -1,7 +1,5 @@
 # Import PFX Dialog
 
-This guide describes the dialog implemented by `import_pfx_dlg.cpp`, `import_pfx_dlg.h`, and `import_pfx_dlg.ui`.
-
 ![Import PFX Dialog](../images/import_pfx_dlg.png)
 
 ## Purpose

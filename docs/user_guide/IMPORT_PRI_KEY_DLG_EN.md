@@ -1,7 +1,5 @@
 # Import Private Key Dialog
 
-This guide describes the dialog implemented by `import_pri_key_dlg.cpp`, `import_pri_key_dlg.h`, and `import_pri_key_dlg.ui`.
-
 ![Import Private Key Dialog](../images/import_pri_key_dlg.png)
 
 ## Purpose

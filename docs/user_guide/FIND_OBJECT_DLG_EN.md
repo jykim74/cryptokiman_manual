@@ -1,7 +1,5 @@
 # Find Objects Dialog
 
-This guide describes the dialog implemented by `find_object_dlg.cpp`, `find_object_dlg.h`, and `find_object_dlg.ui`.
-
 ![Find Objects Dialog](../images/find_object_dlg.png)
 
 ## Purpose

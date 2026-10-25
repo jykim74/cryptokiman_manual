@@ -1,7 +1,5 @@
 # CryptokiMan Main Window Guide
 
-This guide describes the main application window implemented by `mainwindow.cpp`, `mainwindow.h`, and `mainwindow.ui`.
-
 ![CryptokiMan main window](../images/mainwindow.png)
 
 ## Main areas

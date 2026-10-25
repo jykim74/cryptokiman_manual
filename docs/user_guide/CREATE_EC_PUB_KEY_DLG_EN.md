@@ -1,7 +1,5 @@
 # Create ECDSA Public Key Dialog
 
-This guide describes the dialog implemented by `create_ec_pub_key_dlg.cpp`, `create_ec_pub_key_dlg.h`, and `create_ec_pub_key_dlg.ui`.
-
 ![Create ECDSA Public Key Dialog](../images/create_ec_pub_key_dlg.png)
 
 ## Purpose

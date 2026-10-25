@@ -1,6 +1,5 @@
 # Encrypt Dialog
 
-This guide describes the dialog implemented by `encrypt_dlg.cpp`, `encrypt_dlg.h`, and `encrypt_dlg.ui`.
 
 ![Encrypt Dialog](../images/encrypt_dlg.png)
 

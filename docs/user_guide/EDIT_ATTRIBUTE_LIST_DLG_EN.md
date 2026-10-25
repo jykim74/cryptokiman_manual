@@ -1,7 +1,5 @@
 # Edit Attribute List Dialog
 
-This guide describes the dialog implemented by `edit_attribute_list_dlg.cpp`, `edit_attribute_list_dlg.h`, and `edit_attribute_list_dlg.ui`.
-
 ![Edit Attribute List Dialog](../images/edit_attribute_list_dlg.png)
 
 ## Purpose

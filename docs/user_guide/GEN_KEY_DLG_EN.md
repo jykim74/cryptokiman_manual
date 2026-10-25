@@ -1,7 +1,5 @@
 # Generate Key Dialog
 
-This guide describes the dialog implemented by `gen_key_dlg.cpp`, `gen_key_dlg.h`, and `gen_key_dlg.ui`.
-
 ![Generate Key Dialog](../images/gen_key_dlg.png)
 
 ## Purpose

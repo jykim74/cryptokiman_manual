@@ -1,7 +1,5 @@
 # Import Certificate Dialog
 
-This guide describes the dialog implemented by `import_cert_dlg.cpp`, `import_cert_dlg.h`, and `import_cert_dlg.ui`.
-
 ![Import Certificate Dialog](../images/import_cert_dlg.png)
 
 ## Purpose
