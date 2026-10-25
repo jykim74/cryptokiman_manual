@@ -1,6 +1,8 @@
 # Create RSA Public Key Dialog
 
-![Create RSA Public Key Dialog](../images/create_rsa_pub_key_dlg.png)
+![Create RSA public key dialog](../images/create_rsa_pub_key_dlg.png)
+
+*RSA public-key components and object attributes.*
 
 ## Purpose
 
@@ -47,9 +49,3 @@ These checkboxes configure the object template or operation. Their effect depend
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `create_rsa_pub_key_dlg.ui` defines the dialog layout and visible controls.
-- `create_rsa_pub_key_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `create_rsa_pub_key_dlg.h` declares the dialog class and interface.

@@ -1,6 +1,8 @@
 # Change PIN Dialog
 
-![Change PIN Dialog](../images/set_pin_dlg.png)
+![Set PIN dialog](../images/set_pin_dlg.png)
+
+*Fields for entering the current PIN and confirming a new PIN.*
 
 ## Purpose
 
@@ -23,9 +25,3 @@ Enter the current PIN, enter the new PIN twice, and submit the change.
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `set_pin_dlg.ui` defines the dialog layout and visible controls.
-- `set_pin_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `set_pin_dlg.h` declares the dialog class and interface.

@@ -1,6 +1,8 @@
 # CryptokiMan Main Window Guide
 
-![CryptokiMan main window](../images/mainwindow.png)
+![Main window](../images/mainwindow.png)
+
+*Navigation tree, details table, and information/log panels.*
 
 ## Main areas
 
@@ -19,9 +21,3 @@
 5. Check the Information and Log tabs for results and errors.
 
 Only one Cryptoki library can be loaded at a time. Unload the current library before opening another. Available operations depend on the module, token, session, object permissions, and license.
-
-## Source files
-
-- `mainwindow.ui` defines the base Qt window shell.
-- `mainwindow.cpp` builds the runtime layout, menus, toolbars, data views, and context menus.
-- `mainwindow.h` declares the window interface, slots, views, and state.

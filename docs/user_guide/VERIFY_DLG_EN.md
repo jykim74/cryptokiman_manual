@@ -1,6 +1,8 @@
 # Verify Signature Dialog
 
-![Verify Signature Dialog](../images/verify_dlg.png)
+![Verify dialog](../images/verify_dlg.png)
+
+*Key, mechanism, input, and signature controls for verification.*
 
 ## Purpose
 
@@ -54,9 +56,3 @@ Select a public key and verification mechanism, provide the signed input and sig
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `verify_dlg.ui` defines the dialog layout and visible controls.
-- `verify_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `verify_dlg.h` declares the dialog class and interface.

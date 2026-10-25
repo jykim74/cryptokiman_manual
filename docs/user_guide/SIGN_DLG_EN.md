@@ -1,6 +1,8 @@
 # Sign Data Dialog
 
-![Sign Data Dialog](../images/sign_dlg.png)
+![Sign dialog](../images/sign_dlg.png)
+
+*Key, mechanism, and input controls for signing data.*
 
 ## Purpose
 
@@ -54,9 +56,3 @@ Select a private key and signing mechanism, provide input or a file, configure p
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `sign_dlg.ui` defines the dialog layout and visible controls.
-- `sign_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `sign_dlg.h` declares the dialog class and interface.

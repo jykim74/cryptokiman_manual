@@ -1,7 +1,9 @@
 # Delete Object Dialog
 
 
-![Delete Object Dialog](../images/del_object_dlg.png)
+![Delete object dialog](../images/del_object_dlg.png)
+
+*Controls for selecting and deleting token objects.*
 
 ## Purpose
 
@@ -20,9 +22,3 @@ Deletes one selected object or deletes all matching objects, depending on the ac
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `del_object_dlg.ui` defines the dialog layout and visible controls.
-- `del_object_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `del_object_dlg.h` declares the dialog class and interface.

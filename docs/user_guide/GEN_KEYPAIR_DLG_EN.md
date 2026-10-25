@@ -1,6 +1,8 @@
 # Generate Key Pair Dialog
 
-![Generate Key Pair Dialog](../images/gen_keypair_dlg.png)
+![Generate key pair dialog](../images/gen_keypair_dlg.png)
+
+*Mechanism and attribute settings for a public/private key pair.*
 
 ## Purpose
 
@@ -65,9 +67,3 @@ Choose a mechanism and key size, configure public and private key templates, and
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `gen_key_pair_dlg.ui` defines the dialog layout and visible controls.
-- `gen_key_pair_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `gen_key_pair_dlg.h` declares the dialog class and interface.

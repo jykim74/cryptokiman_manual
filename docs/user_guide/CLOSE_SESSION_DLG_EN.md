@@ -1,6 +1,8 @@
 # Close Session Dialog
 
-![Close Session dialog](../images/close_session_dlg.png)
+![Close session dialog](../images/close_session_dlg.png)
+
+*Controls for closing a session or all sessions on the selected token.*
 
 ## Purpose
 

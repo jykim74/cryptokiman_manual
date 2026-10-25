@@ -1,6 +1,8 @@
 # Settings Dialog
 
-![Settings Dialog](../images/settings_dlg.png)
+![Settings dialog](../images/settings_dlg.png)
+
+*Application preferences for display, logging, and operations.*
 
 ## Purpose
 
@@ -36,9 +38,3 @@ These checkboxes configure the object template or operation. Their effect depend
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `settings_dlg.ui` defines the dialog layout and visible controls.
-- `settings_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `settings_dlg.h` declares the dialog class and interface.

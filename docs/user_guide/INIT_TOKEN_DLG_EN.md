@@ -1,6 +1,8 @@
 # Initialize Token Dialog
 
-![Initialize Token Dialog](../images/init_token_dlg.png)
+![Initialize token dialog](../images/init_token_dlg.png)
+
+*Token label and security-officer PIN fields.*
 
 ## Purpose
 
@@ -23,9 +25,3 @@ Select the slot, enter and confirm the security-officer PIN, provide a token lab
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `init_token_dlg.ui` defines the dialog layout and visible controls.
-- `init_token_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `init_token_dlg.h` declares the dialog class and interface.

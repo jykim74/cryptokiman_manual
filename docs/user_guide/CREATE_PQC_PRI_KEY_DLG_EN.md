@@ -1,6 +1,8 @@
 # Create PQC Private Key Dialog
 
-![Create PQC Private Key Dialog](../images/create_pqc_pri_key_dlg.png)
+![Create PQC private key dialog](../images/create_pqc_pri_key_dlg.png)
+
+*Algorithm and parameter settings for a PQC private key.*
 
 ## Purpose
 
@@ -48,9 +50,3 @@ These checkboxes configure the object template or operation. Their effect depend
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `create_pqc_pri_key_dlg.ui` defines the dialog layout and visible controls.
-- `create_pqc_pri_key_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `create_pqc_pri_key_dlg.h` declares the dialog class and interface.

@@ -1,6 +1,8 @@
 # Import Certificate Dialog
 
-![Import Certificate Dialog](../images/import_cert_dlg.png)
+![Import certificate dialog](../images/import_cert_dlg.png)
+
+*Certificate file selection and imported-object attributes.*
 
 ## Purpose
 
@@ -43,9 +45,3 @@ Browse to a certificate file, review its subject and identifiers, set object att
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `import_cert_dlg.ui` defines the dialog layout and visible controls.
-- `import_cert_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `import_cert_dlg.h` declares the dialog class and interface.

@@ -3,6 +3,8 @@
 
 ![Login dialog](../images/login_dlg.png)
 
+*Role selection and PIN entry for token login.*
+
 ## Purpose
 
 Authenticates to the selected token through an open session (`C_Login`). Authentication may be required to access private objects or perform protected operations.

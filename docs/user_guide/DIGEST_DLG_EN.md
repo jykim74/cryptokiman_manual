@@ -1,7 +1,9 @@
 # Digest Dialog
 
 
-![Digest Dialog](../images/digest_dlg.png)
+![Digest dialog](../images/digest_dlg.png)
+
+*Mechanism and input controls for computing a digest.*
 
 ## Purpose
 
@@ -47,9 +49,3 @@ Choose a digest mechanism, provide input directly or select a file, and run the 
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `digest_dlg.ui` defines the dialog layout and visible controls.
-- `digest_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `digest_dlg.h` declares the dialog class and interface.

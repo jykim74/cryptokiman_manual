@@ -1,6 +1,8 @@
 # Unwrap Key Dialog
 
-![Unwrap Key Dialog](../images/unwrap_key_dlg.png)
+![Unwrap key dialog](../images/unwrap_key_dlg.png)
+
+*Wrapped key input, unwrapping settings, and new-key attributes.*
 
 ## Purpose
 
@@ -58,9 +60,3 @@ Select an unwrapping key, choose a mechanism and parameters, load the wrapped va
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `unwrap_key_dlg.ui` defines the dialog layout and visible controls.
-- `unwrap_key_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `unwrap_key_dlg.h` declares the dialog class and interface.

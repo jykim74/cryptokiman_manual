@@ -1,6 +1,8 @@
 # Random Data Dialog
 
-![Random Data Dialog](../images/rand_dlg.png)
+![Random data dialog](../images/rand_dlg.png)
+
+*Seed and output-length controls for random data.*
 
 ## Purpose
 
@@ -26,9 +28,3 @@ Choose the seed or output length, enter or clear seed data as needed, and genera
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `rand_dlg.ui` defines the dialog layout and visible controls.
-- `rand_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `rand_dlg.h` declares the dialog class and interface.

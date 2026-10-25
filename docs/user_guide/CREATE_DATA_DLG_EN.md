@@ -1,6 +1,8 @@
 # Create Data Object Dialog
 
-![Create Data Object Dialog](../images/create_data_dlg.png)
+![Create data dialog](../images/create_data_dlg.png)
+
+*Fields for creating a data object on the token.*
 
 ## Purpose
 
@@ -36,9 +38,3 @@ Select the target slot, enter the data-object fields and flags, and submit the c
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `create_data_dlg.ui` defines the dialog layout and visible controls.
-- `create_data_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `create_data_dlg.h` declares the dialog class and interface.

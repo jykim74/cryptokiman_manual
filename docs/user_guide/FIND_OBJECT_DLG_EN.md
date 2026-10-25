@@ -1,6 +1,8 @@
 # Find Objects Dialog
 
-![Find Objects Dialog](../images/find_object_dlg.png)
+![Find objects dialog](../images/find_object_dlg.png)
+
+*Object filters for searching the selected session.*
 
 ## Purpose
 
@@ -54,9 +56,3 @@ Set search criteria and a maximum result count, then choose Find Objects to sear
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `find_object_dlg.ui` defines the dialog layout and visible controls.
-- `find_object_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `find_object_dlg.h` declares the dialog class and interface.

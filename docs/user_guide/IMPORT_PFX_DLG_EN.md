@@ -1,6 +1,8 @@
 # Import PFX Dialog
 
-![Import PFX Dialog](../images/import_pfx_dlg.png)
+![Import PFX dialog](../images/import_pfx_dlg.png)
+
+*PFX file, password, and certificate/key attributes.*
 
 ## Purpose
 
@@ -59,9 +61,3 @@ Select a PFX file and enter its password, configure certificate and key attribut
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `import_pfx_dlg.ui` defines the dialog layout and visible controls.
-- `import_pfx_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `import_pfx_dlg.h` declares the dialog class and interface.

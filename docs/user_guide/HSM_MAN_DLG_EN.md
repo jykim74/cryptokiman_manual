@@ -1,6 +1,8 @@
 # HSM Management Dialog
 
-![HSM Management Dialog](../images/hsm_man_dlg.png)
+![HSM management dialog](../images/hsm_man_dlg.png)
+
+*Lists of HSM certificates and keys with management controls.*
 
 ## Purpose
 
@@ -37,9 +39,3 @@ These checkboxes configure the object template or operation. Their effect depend
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `hsm_man_dlg.ui` defines the dialog layout and visible controls.
-- `hsm_man_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `hsm_man_dlg.h` declares the dialog class and interface.

@@ -1,6 +1,8 @@
 # Operation State Dialog
 
-![Operation State Dialog](../images/oper_state_dlg.png)
+![Operation state dialog](../images/oper_state_dlg.png)
+
+*Controls for saving, restoring, or managing operation state.*
 
 ## Purpose
 
@@ -24,9 +26,3 @@ Gets or restores a cryptographic operation state, and provides controls for supp
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `oper_state_dlg.ui` defines the dialog layout and visible controls.
-- `oper_state_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `oper_state_dlg.h` declares the dialog class and interface.

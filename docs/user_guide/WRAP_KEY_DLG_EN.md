@@ -1,6 +1,8 @@
 # Wrap Key Dialog
 
-![Wrap Key Dialog](../images/wrap_key_dlg.png)
+![Wrap key dialog](../images/wrap_key_dlg.png)
+
+*Wrapping-key and target-key selection with output controls.*
 
 ## Purpose
 
@@ -31,9 +33,3 @@ Select the wrapping key and target key, choose a mechanism and parameters, wrap 
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `wrap_key_dlg.ui` defines the dialog layout and visible controls.
-- `wrap_key_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `wrap_key_dlg.h` declares the dialog class and interface.

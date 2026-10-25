@@ -1,6 +1,8 @@
 # Copy Object Dialog
 
-![Copy Object Dialog](../images/copy_object_dlg.png)
+![Copy object dialog](../images/copy_object_dlg.png)
+
+*Source object details and settings for its copy.*
 
 ## Purpose
 
@@ -32,9 +34,3 @@ Review the source object, set the desired attributes for the copy, and confirm t
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `copy_object_dlg.ui` defines the dialog layout and visible controls.
-- `copy_object_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `copy_object_dlg.h` declares the dialog class and interface.

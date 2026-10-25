@@ -1,6 +1,8 @@
 # Open Session Dialog
 
-![Open Session dialog](../images/open_session_dlg.png)
+![Open session dialog](../images/open_session_dlg.png)
+
+*Slot selection and flags for opening a session.*
 
 ## Purpose
 

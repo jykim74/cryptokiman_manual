@@ -1,7 +1,9 @@
 # Create Key Object Dialog
 
 
-![Create Key Object Dialog](../images/create_key_dlg.png)
+![Create key dialog](../images/create_key_dlg.png)
+
+*Key information and attributes for a new key object.*
 
 ## Purpose
 
@@ -46,9 +48,3 @@ These checkboxes configure the object template or operation. Their effect depend
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `create_key_dlg.ui` defines the dialog layout and visible controls.
-- `create_key_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `create_key_dlg.h` declares the dialog class and interface.

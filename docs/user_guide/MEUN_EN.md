@@ -1,6 +1,6 @@
 # CryptokiMan Menu Guide
 
-This guide describes the menus and context-menu commands created by `mainwindow.cpp` and its menu helper. CryptokiMan is a graphical manager for PKCS #11 (Cryptoki) libraries, tokens, sessions, and cryptographic objects. Some commands may be disabled or hidden depending on the active license and settings.
+This guide summarizes CryptokiMan's menus and the actions they provide for tokens, sessions, objects, and cryptographic operations.
 
 ## File
 

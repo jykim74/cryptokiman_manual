@@ -1,6 +1,8 @@
 # Initialize User PIN Dialog
 
-![Initialize User PIN Dialog](../images/init_pin_dlg.png)
+![Initialize PIN dialog](../images/init_pin_dlg.png)
+
+*Fields for setting and confirming the initial user PIN.*
 
 ## Purpose
 
@@ -22,9 +24,3 @@ Enter the new user PIN and its confirmation, then submit the initialization.
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `init_pin_dlg.ui` defines the dialog layout and visible controls.
-- `init_pin_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `init_pin_dlg.h` declares the dialog class and interface.

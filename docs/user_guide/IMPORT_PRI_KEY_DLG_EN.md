@@ -1,6 +1,8 @@
 # Import Private Key Dialog
 
-![Import Private Key Dialog](../images/import_pri_key_dlg.png)
+![Import private key dialog](../images/import_pri_key_dlg.png)
+
+*Private-key file, password, and imported-key attributes.*
 
 ## Purpose
 
@@ -59,9 +61,3 @@ Select the key file, enter its password if needed, choose whether to save its pu
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `import_pri_key_dlg.ui` defines the dialog layout and visible controls.
-- `import_pri_key_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `import_pri_key_dlg.h` declares the dialog class and interface.

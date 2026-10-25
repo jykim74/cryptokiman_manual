@@ -1,6 +1,8 @@
 # Type Name Utility
 
-![Type Name Utility](../images/type_name_dlg.png)
+![Type name dialog](../images/type_name_dlg.png)
+
+*Fields for viewing a type name in decimal and hexadecimal.*
 
 ## Purpose
 
@@ -22,9 +24,3 @@ Enter or select a type name and read its decimal and hexadecimal values; use Cle
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `type_name_dlg.ui` defines the dialog layout and visible controls.
-- `type_name_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `type_name_dlg.h` declares the dialog class and interface.

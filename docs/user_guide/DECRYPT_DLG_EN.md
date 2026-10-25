@@ -1,6 +1,8 @@
 # Decrypt Dialog
 
-![Decrypt Dialog](../images/decrypt_dlg.png)
+![Decrypt dialog](../images/decrypt_dlg.png)
+
+*Key, mechanism, input, and output controls for decryption.*
 
 ## Purpose
 
@@ -58,9 +60,3 @@ Select a key and mechanism, set required parameters, provide input directly or f
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `decrypt_dlg.ui` defines the dialog layout and visible controls.
-- `decrypt_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `decrypt_dlg.h` declares the dialog class and interface.

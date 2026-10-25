@@ -3,6 +3,8 @@
 
 ![Logout dialog](../images/logout_dlg.png)
 
+*Selected slot details for ending the login state.*
+
 ## Purpose
 
 Ends the authenticated state for the selected session (`C_Logout`). Logging out does not close the session.

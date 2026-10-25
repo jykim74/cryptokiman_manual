@@ -1,6 +1,6 @@
 # CryptokiMan Menu Guide
 
-This guide describes the menu commands implemented by `mainwindow.cpp`. CryptokiMan uses a PKCS #11 (Cryptoki) library to inspect and operate on tokens and HSMs. The commands available to you depend on the loaded library, selected token and session, token capabilities, and license status.
+This guide summarizes CryptokiMan's menus and the actions they provide for tokens, sessions, objects, and cryptographic operations.
 
 ## File
 

@@ -1,8 +1,9 @@
 # Create CSR Dialog
 
-This guide describes the dialog implemented by `make_csr_dlg.cpp`, `make_csr_dlg.h`, and `make_csr_dlg.ui`.
 
-![Create CSR Dialog](../images/make_csr_dlg.png)
+![Make CSR dialog](../images/make_csr_dlg.png)
+
+*Key selection and subject fields for a certificate request.*
 
 ## Purpose
 
@@ -35,9 +36,3 @@ Select the public and private keys, enter subject fields, choose a signature has
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `make_csr_dlg.ui` defines the dialog layout and visible controls.
-- `make_csr_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `make_csr_dlg.h` declares the dialog class and interface.

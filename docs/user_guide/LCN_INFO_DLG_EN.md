@@ -1,6 +1,8 @@
 # License Information Dialog
 
-![License Information Dialog](../images/lcn_info_dlg.png)
+![License information dialog](../images/lcn_info_dlg.png)
+
+*License status and license request or update controls.*
 
 ## Purpose
 
@@ -34,9 +36,3 @@ These checkboxes configure the object template or operation. Their effect depend
 ## Notes
 
 Use the selected slot and session shown in **Slot Info**. Results depend on the PKCS #11 module, token support, object permissions, and entered values. CryptokiMan and/or the module reports operation errors.
-
-## Source files
-
-- `lcn_info_dlg.ui` defines the dialog layout and visible controls.
-- `lcn_info_dlg.cpp` implements dialog behavior and Cryptoki operations.
-- `lcn_info_dlg.h` declares the dialog class and interface.
