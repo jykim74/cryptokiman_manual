@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#get-started" class="md-skip">
+        <a href="#cryptokiman-basic-usage" class="md-skip">
           Skip to content
         </a>
       
@@ -233,6 +233,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -275,6 +277,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -283,10 +287,98 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#get-started" class="md-nav__link">
+  <a href="#before-you-start" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Get Started
+        Before you start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-a-pkcs-11-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load a PKCS #11 module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-a-session-and-log-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open a session and log in
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browse-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browse objects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-an-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run an operation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#close-and-unload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Close and unload
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-cautions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important cautions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-with-softhsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Try with SoftHSM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related documentation
       
     </span>
   </a>
@@ -1988,6 +2080,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1996,10 +2090,98 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#get-started" class="md-nav__link">
+  <a href="#before-you-start" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Get Started
+        Before you start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-a-pkcs-11-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load a PKCS #11 module
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-a-session-and-log-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open a session and log in
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browse-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browse objects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-an-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run an operation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#close-and-unload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Close and unload
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-cautions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important cautions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-with-softhsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Try with SoftHSM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related documentation
       
     </span>
   </a>
@@ -2023,9 +2205,73 @@
 
 
 
-  <h1>Getting Started</h1>
-
-<h2 id="get-started">Get Started</h2>
+<h1 id="cryptokiman-basic-usage">CryptokiMan Basic Usage</h1>
+<p>CryptokiMan is a graphical utility for working with PKCS #11 (Cryptoki) modules. It can inspect a module, its slots and tokens, and—subject to the token's capabilities and your license—manage sessions and objects or run cryptographic operations.</p>
+<h2 id="before-you-start">Before you start</h2>
+<ol>
+<li>Install the vendor's PKCS #11 module and any required device drivers.</li>
+<li>Identify the module library file for your operating system and application architecture. For example, a 64-bit application requires a 64-bit module.</li>
+<li>Make sure the token or HSM is available. For a software test environment, SoftHSM can provide a PKCS #11 module without hardware.</li>
+<li>Have the appropriate User PIN or Security Officer (SO) PIN available if the operation requires authentication.</li>
+</ol>
+<blockquote>
+<p>CryptokiMan communicates with the device through the PKCS #11 library you load. Available mechanisms, operations, and object permissions are determined by that module and token.</p>
+</blockquote>
+<h2 id="load-a-pkcs-11-module">Load a PKCS #11 module</h2>
+<ol>
+<li>Start CryptokiMan.</li>
+<li>Select <strong>File &gt; Open...</strong> and choose the PKCS #11 library file. You can also drag the library file into the main window.</li>
+<li>Wait for the module to initialize. The navigation tree should show the library and its slots.</li>
+<li>Select a slot or token to inspect its information and supported mechanisms in the details and information areas.</li>
+</ol>
+<p>Only one Cryptoki module can be loaded at a time. Close active sessions and unload the current module before loading another one.</p>
+<h2 id="open-a-session-and-log-in">Open a session and log in</h2>
+<ol>
+<li>Select the slot or token you want to use.</li>
+<li>Choose <strong>Module &gt; Open Session</strong>.</li>
+<li>Choose read-only access for inspection. Choose read/write access only when you need to create, change, or remove objects and the token permits it.</li>
+<li>To perform an operation that requires authentication, choose the login command and select the correct role:</li>
+<li><strong>User</strong> for normal token operations.</li>
+<li><strong>Security Officer (SO)</strong> for administrative tasks supported by the token.</li>
+<li>Enter the PIN assigned to that role.</li>
+</ol>
+<p>Do not confuse the User PIN with the SO PIN. The token may restrict or reject operations based on the role, session type, or login state.</p>
+<h2 id="browse-objects">Browse objects</h2>
+<p>After opening a session, browse the object categories in the navigation tree. Select an object or row to view its available information. Double-click or right-click an object to see the actions supported for it, such as viewing details or managing attributes.</p>
+<p>Object visibility and editable attributes depend on the token's policy. Sensitive key values may not be readable or exportable, even when the object itself is listed.</p>
+<h2 id="run-an-operation">Run an operation</h2>
+<p>CryptokiMan provides dialogs for supported operations such as random data generation, digesting, signing and verification, and encryption and decryption. A typical operation is:</p>
+<ol>
+<li>Open the relevant command from the <strong>Cryptography</strong> menu or toolbar.</li>
+<li>Select a mechanism supported by the module.</li>
+<li>Select the required key or object, if the operation uses one.</li>
+<li>Enter the data or choose an input file, and set any required parameters.</li>
+<li>Run the operation and review the result and status messages.</li>
+</ol>
+<p>For signing, decryption, or other private-key operations, the selected key must permit the requested action and the token may require an authenticated session. If an operation fails, check the selected mechanism, key attributes, session state, and the <strong>Information</strong> and <strong>Log</strong> panels.</p>
+<h2 id="close-and-unload">Close and unload</h2>
+<ol>
+<li>Log out when you no longer need the authenticated session.</li>
+<li>Close the session using <strong>Module &gt; Close Session</strong> (or the corresponding session command). Close all sessions before unloading the module.</li>
+<li>Unload or close the loaded module from the <strong>Module</strong> menu before exiting or loading another library.</li>
+</ol>
+<h2 id="important-cautions">Important cautions</h2>
+<ul>
+<li><strong>Initialize Token</strong> replaces the token's initialization state and can erase existing token data. Use it only when you intend to initialize that token.</li>
+<li>PIN initialization and changes affect access to the token. Follow the device vendor's recovery and PIN policies.</li>
+<li>A read/write session permits changes only when the token and the authenticated role allow them.</li>
+<li>Some CryptokiMan features require a valid license. A license does not add mechanisms or permissions that the module or token does not support.</li>
+</ul>
+<h2 id="try-with-softhsm">Try with SoftHSM</h2>
+<p>SoftHSM is a software implementation of a PKCS #11 token and can be used for development and testing. Configure SoftHSM and initialize a test token using its own documentation and utilities, then load the SoftHSM library in CryptokiMan and follow the steps above. Keep test tokens separate from production credentials and data.</p>
+<h2 id="related-documentation">Related documentation</h2>
+<ul>
+<li><a href="CRYPTOKIMAN_EN.md">CryptokiMan overview and downloads</a></li>
+<li><a href="LICENSE_FEATURES.md">Features by license status</a></li>
+<li><a href="https://jykim74.tistory.com/category/Manual/CryptokiMan">CryptokiMan manual articles</a></li>
+<li><a href="https://jykim74.tistory.com/38">Original CryptokiMan introduction</a></li>
+<li><a href="https://jykim74.tistory.com/140">SoftHSM usage on Windows and Linux</a></li>
+</ul>
 
 
 
