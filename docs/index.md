@@ -91,11 +91,6 @@ CryptokiMan operates through the PKCS #11 library that you load. It does not rep
 
 The supplied project index says the application was tested with a library downloaded from [SoftHSM](https://www.opendnssec.org/softhsm/). SoftHSM provides a software token useful for development and testing; a vendor module may behave differently.
 
-## Documentation and support
-
-- [CryptokiMan manual pages](https://jykim74.tistory.com/category/Manual/CryptokiMan) — the supplied index identifies this as the Korean manual and notes that browser translation can be used.
-- [CryptokiMan Google Group](https://groups.google.com/g/cryptokiman) — questions and bug reports.
-
 ## Related dialog guides
 
 The `md` folder contains English guides for the main window and individual dialogs, including session management, login, key generation, object management, cryptographic operations, imports, token tools, settings, and licensing. Each dialog guide includes its matching screenshot from the `images` folder.
