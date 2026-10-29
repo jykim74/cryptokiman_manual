@@ -12,9 +12,9 @@ The project index lists CryptokiMan version **2.3.2** for these platforms:
 
 | Platform | Download |
 |---|---|
-| Windows 64-bit | [Download CryptokiMan 2.3.2 for Windows](https://jykim74.github.io/msi/CryptokiMan-enV232.msi) |
-| macOS | [Download CryptokiMan 2.3.2 for macOS](https://jykim74.github.io/dmg/CryptokiManV232.dmg) |
-| Linux 64-bit | [Download CryptokiMan 2.3.2 for Linux](https://jykim74.github.io/zip/CryptokiManV232.zip) |
+| Windows 64-bit | [Download CryptokiMan 2.3.4 for Windows](https://jykim74.github.io/msi/CryptokiMan-enV234.msi) |
+| macOS | [Download CryptokiMan 2.3.4 for macOS](https://jykim74.github.io/dmg/CryptokiManV234.dmg) |
+| Linux 64-bit | [Download CryptokiMan 2.3.4 for Linux](https://jykim74.github.io/zip/CryptokiManV234.zip) |
 
 The source index reports a download size of approximately 30 MB. Confirm that the package matches your operating system before installing it.
 
