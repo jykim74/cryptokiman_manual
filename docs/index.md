@@ -6,18 +6,6 @@ The information and download links in this guide are based on the supplied proje
 
 ![CryptokiMan main window](images/mainwindow.png)
 
-## Downloads
-
-The project index lists CryptokiMan version **2.3.2** for these platforms:
-
-| Platform | Download |
-|---|---|
-| Windows 64-bit | [Download CryptokiMan 2.3.4 for Windows](https://jykim74.github.io/msi/CryptokiMan-enV234.msi) |
-| macOS | [Download CryptokiMan 2.3.4 for macOS](https://jykim74.github.io/dmg/CryptokiManV234.dmg) |
-| Linux 64-bit | [Download CryptokiMan 2.3.4 for Linux](https://jykim74.github.io/zip/CryptokiManV234.zip) |
-
-The source index reports a download size of approximately 30 MB. Confirm that the package matches your operating system before installing it.
-
 ## What you can do
 
 ### Inspect a Cryptoki module and token
@@ -63,27 +51,6 @@ Only one Cryptoki library can be loaded at a time. **Initialize Token** can eras
 - **Information tab:** Displays information and details for the current selection.
 - **Log tab:** Displays application and operation messages. The dock can be shown from **File > Show log tab**.
 - **Menus and toolbars:** Provide File, Module, Objects, Cryptography, Import, Tools, and Help commands. The View menu can show or hide toolbar buttons when available.
-
-## Licensing
-
-The project index describes a licensed and an unlicensed edition. In the unlicensed edition, several actions are unavailable. The table below summarizes the feature list in that index; actual availability may also depend on token support and permissions.
-
-| Feature listed in the project index | Licensed edition | Unlicensed edition |
-|---|:---:|:---:|
-| RSA, ECC, and DSA key creation | Available | Unavailable |
-| Random-number generation | Available | Unavailable |
-| Hash, HMAC, signature, and encryption operations | Available | Unavailable |
-| Import | Available | Unavailable |
-| Initialize and set PIN | Available | Unavailable |
-| Wrap, unwrap, and derive keys | Available | Unavailable |
-| Edit and delete objects | Available | Unavailable |
-| Create a CSR | Available | Unavailable |
-| View public and private keys | Available | Unavailable |
-| Export public and private keys | Available | Unavailable |
-
-The supplied index says a 30-day trial license can be requested. The original index contains a malformed `https::/` scheme for this address; the link below uses the corrected HTTPS form:
-
-[Request a free trial license](https://jykim7.mycafe24.com/user_reg.php)
 
 ## Compatibility and testing
 
