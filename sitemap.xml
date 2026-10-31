@@ -2,210 +2,210 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/get_start/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/install_linux/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/install_macos/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/install_windows/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/license_features/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CAVP_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CLOSE_SESSION_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/COPY_OBJECT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_DATA_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_DSA_PRI_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_DSA_PUB_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_EC_PRI_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_EC_PUB_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_PQC_PRI_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_PQC_PUB_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_RSA_PRI_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/CREATE_RSA_PUB_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/DECRYPT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/DEL_OBJECT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/DERIVE_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/DIGEST_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/EDIT_ATTRIBUTE_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/EDIT_ATTRIBUTE_LIST_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/ENCRYPT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/FIND_OBJECT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/GEN_KEYPAIR_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/GEN_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/HSM_MAN_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/IMPORT_CERT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/IMPORT_PFX_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/IMPORT_PRI_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/INIT_PIN_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/INIT_TOKEN_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/LCN_INFO_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/LOGIN_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/LOGOUT_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/MAINWINDOW_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/MAKE_CSR_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/MENU_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/MEUN_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/OPEN_SESSION_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/OPER_STATE_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/RAND_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/SETTINGS_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/SET_PIN_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/SIGN_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/TYPE_NAME_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/UNWRAP_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/VERIFY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://jykim74.github.io/cryptoki_manaual/user_guide/WRAP_KEY_DLG_EN/</loc>
-         <lastmod>2026-10-29</lastmod>
+         <lastmod>2026-10-31</lastmod>
     </url>
 </urlset>
