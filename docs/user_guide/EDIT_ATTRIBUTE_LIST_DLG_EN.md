@@ -1,3 +1,8 @@
+---
+title: "Edit Attribute List | PKCS #11"
+description: "CryptokiMan: Reads or updates a selected set of common object attributes in one operation."
+---
+
 # Edit Attribute List Dialog
 
 ![Edit attribute list dialog](../images/edit_attribute_list_dlg.png)

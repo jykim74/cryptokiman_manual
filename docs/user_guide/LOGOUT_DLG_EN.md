@@ -1,3 +1,8 @@
+---
+title: "Logout | PKCS #11"
+description: "CryptokiMan: Ends the authenticated state for the selected session (C_Logout). Logging out does not close the session."
+---
+
 # Logout Dialog
 
 

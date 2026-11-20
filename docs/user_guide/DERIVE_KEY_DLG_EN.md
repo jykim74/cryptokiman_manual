@@ -1,3 +1,8 @@
+---
+title: "Derive Key | PKCS #11"
+description: "CryptokiMan: Derives a new key from a selected source key using a supported mechanism, parameters, and a destination key template."
+---
+
 # Derive Key Dialog
 
 ![Derive key dialog](../images/derive_key_dlg.png)

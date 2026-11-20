@@ -1,3 +1,8 @@
+---
+title: "Main Window and PKCS #11 Navigation"
+description: "Explore the CryptokiMan main window, navigation tree, object table, menus, and logs for working with PKCS #11 modules and tokens."
+---
+
 # CryptokiMan Main Window Guide
 
 ![Main window](../images/mainwindow.png)

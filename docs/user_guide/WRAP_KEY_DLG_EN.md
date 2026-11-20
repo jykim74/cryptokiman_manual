@@ -1,3 +1,8 @@
+---
+title: "Wrap Key | PKCS #11"
+description: "CryptokiMan: Wraps a target key in encrypted form using a selected wrapping key and mechanism."
+---
+
 # Wrap Key Dialog
 
 ![Wrap key dialog](../images/wrap_key_dlg.png)

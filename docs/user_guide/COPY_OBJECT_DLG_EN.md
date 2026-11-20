@@ -1,3 +1,8 @@
+---
+title: "Copy Object | PKCS #11"
+description: "CryptokiMan: Creates a copy of a selected token object. Review the source object, then set the attributes for the new copy."
+---
+
 # Copy Object Dialog
 
 ![Copy object dialog](../images/copy_object_dlg.png)

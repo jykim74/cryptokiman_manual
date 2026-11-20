@@ -1,3 +1,8 @@
+---
+title: "Verify Signature | PKCS #11"
+description: "CryptokiMan: Verifies a signature using a selected public key and mechanism. Input can be entered directly or read from a file."
+---
+
 # Verify Signature Dialog
 
 ![Verify dialog](../images/verify_dlg.png)

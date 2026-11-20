@@ -1,3 +1,8 @@
+---
+title: "HSM Management | PKCS #11"
+description: "CryptokiMan: Provides a consolidated view of certificates and keys on the selected HSM, with object-specific view, export, delete, and cryptographic actions."
+---
+
 # HSM Management Dialog
 
 ![HSM management dialog](../images/hsm_man_dlg.png)

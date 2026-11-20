@@ -1,3 +1,8 @@
+---
+title: "Generate Key | PKCS #11"
+description: "CryptokiMan: Generates a key on the selected token using a mechanism, key size, parameters, and object attributes."
+---
+
 # Generate Key Dialog
 
 ![Generate key dialog](../images/gen_key_dlg.png)

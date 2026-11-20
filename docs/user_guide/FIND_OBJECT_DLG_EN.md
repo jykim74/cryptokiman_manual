@@ -1,3 +1,8 @@
+---
+title: "Find Objects | PKCS #11"
+description: "CryptokiMan: Searches the selected session for objects matching the specified object class, identifying fields, and attribute values."
+---
+
 # Find Objects Dialog
 
 ![Find objects dialog](../images/find_object_dlg.png)

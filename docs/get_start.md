@@ -1,3 +1,8 @@
+---
+title: "Getting Started with PKCS #11"
+description: "Get started with CryptokiMan: load a PKCS #11 module, inspect tokens, open a session, log in, and manage objects."
+---
+
 # CryptokiMan Basic Usage
 
 CryptokiMan is a graphical utility for working with PKCS #11 (Cryptoki) modules. It can inspect a module, its slots and tokens, and—subject to the token's capabilities and your license—manage sessions and objects or run cryptographic operations.
@@ -69,8 +74,8 @@ SoftHSM is a software implementation of a PKCS #11 token and can be used for dev
 
 ## Related documentation
 
-- [CryptokiMan overview and downloads](CRYPTOKIMAN_EN.md)
-- [Features by license status](LICENSE_FEATURES.md)
+- [CryptokiMan overview](index.md)
+- [Features by license status](license_features.md)
 - [CryptokiMan manual articles](https://jykim74.tistory.com/category/Manual/CryptokiMan)
 - [Original CryptokiMan introduction](https://jykim74.tistory.com/38)
 - [SoftHSM usage on Windows and Linux](https://jykim74.tistory.com/140)

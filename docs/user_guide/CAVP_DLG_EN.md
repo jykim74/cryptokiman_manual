@@ -1,3 +1,8 @@
+---
+title: "CAVP Test Utility | PKCS #11"
+description: "CryptokiMan: Runs supported CAVP and ACVP test workflows using the selected Cryptoki slot, including Monte Carlo, request/response, and algorithm-specific tests."
+---
+
 # CAVP Test Utility
 
 ![CAVP dialog](../images/cavp_dlg.png)

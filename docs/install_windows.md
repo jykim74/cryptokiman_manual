@@ -1,3 +1,8 @@
+---
+title: "Install CryptokiMan on Windows"
+description: "Install CryptokiMan on Windows using the setup wizard, choose an installation folder, and launch the PKCS #11 management tool."
+---
+
 # CryptokiMan Installation on Windows
 
 This guide follows the CryptokiMan 2.3.2 Windows Setup Wizard shown in the screenshots. Before starting, download and locate the CryptokiMan Windows installer (`.exe`).

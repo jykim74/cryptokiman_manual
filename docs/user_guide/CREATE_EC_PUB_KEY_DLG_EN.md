@@ -1,3 +1,8 @@
+---
+title: "Create ECDSA Public Key | PKCS #11"
+description: "CryptokiMan: Creates an elliptic-curve public-key object with curve and point information and public-key usage attributes."
+---
+
 # Create ECDSA Public Key Dialog
 
 ![Create EC public key dialog](../images/create_ec_pub_key_dlg.png)

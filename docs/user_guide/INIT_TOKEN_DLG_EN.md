@@ -1,3 +1,8 @@
+---
+title: "Initialize Token | PKCS #11"
+description: "CryptokiMan: Initializes the selected token with a label and security-officer PIN. Initialization may erase existing token data."
+---
+
 # Initialize Token Dialog
 
 ![Initialize token dialog](../images/init_token_dlg.png)

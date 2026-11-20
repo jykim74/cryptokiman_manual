@@ -1,3 +1,8 @@
+---
+title: "Install CryptokiMan on Linux"
+description: "Install CryptokiMan on Linux from the ZIP package, extract the files, and start the PKCS #11 management tool from a terminal."
+---
+
 # CryptokiMan Installation on Linux
 
 These steps follow the Linux installation screenshot and use the CryptokiMan 2.3.2 ZIP package.

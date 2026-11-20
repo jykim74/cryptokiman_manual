@@ -1,3 +1,8 @@
+---
+title: "Create RSA Public Key | PKCS #11"
+description: "CryptokiMan: Creates an RSA public-key object from its modulus and public exponent, with configurable attributes."
+---
+
 # Create RSA Public Key Dialog
 
 ![Create RSA public key dialog](../images/create_rsa_pub_key_dlg.png)

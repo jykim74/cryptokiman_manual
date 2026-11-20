@@ -1,3 +1,8 @@
+---
+title: "Operation State | PKCS #11"
+description: "CryptokiMan: Gets or restores a cryptographic operation state, and provides controls for supported non-blocking operations."
+---
+
 # Operation State Dialog
 
 ![Operation state dialog](../images/oper_state_dlg.png)

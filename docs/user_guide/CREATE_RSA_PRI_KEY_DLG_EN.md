@@ -1,3 +1,8 @@
+---
+title: "Create RSA Private Key | PKCS #11"
+description: "CryptokiMan: Creates an RSA private-key object from its key components and private-key attributes."
+---
+
 # Create RSA Private Key Dialog
 
 ![Create RSA private key dialog](../images/create_rsa_pri_key_dlg.png)

@@ -1,3 +1,8 @@
+---
+title: "Decrypt | PKCS #11"
+description: "CryptokiMan: Decrypts input data with a selected key and mechanism. It supports operation parameters, direct input or source files, and output to a destination file."
+---
+
 # Decrypt Dialog
 
 ![Decrypt dialog](../images/decrypt_dlg.png)

@@ -1,3 +1,8 @@
+---
+title: "Login | PKCS #11"
+description: "CryptokiMan: Authenticates to the selected token through an open session (C_Login)."
+---
+
 # Login Dialog
 
 

@@ -1,3 +1,8 @@
+---
+title: "Close Session | PKCS #11"
+description: "CryptokiMan: Closes the selected session, or closes all sessions for the selected token."
+---
+
 # Close Session Dialog
 
 ![Close session dialog](../images/close_session_dlg.png)

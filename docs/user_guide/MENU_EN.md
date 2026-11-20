@@ -1,3 +1,8 @@
+---
+title: "Menus and PKCS #11 Commands"
+description: "Explore CryptokiMan menus and commands for PKCS #11 modules, sessions, objects, cryptographic operations, imports, and token tools."
+---
+
 # CryptokiMan Menu Guide
 
 This guide summarizes CryptokiMan's menus and the actions they provide for tokens, sessions, objects, and cryptographic operations.

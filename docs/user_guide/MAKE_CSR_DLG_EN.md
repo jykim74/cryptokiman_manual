@@ -1,3 +1,8 @@
+---
+title: "Create CSR | PKCS #11"
+description: "CryptokiMan: Builds a certificate signing request using a key pair and the supplied subject and request attributes."
+---
+
 # Create CSR Dialog
 
 

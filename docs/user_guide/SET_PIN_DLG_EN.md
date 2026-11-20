@@ -1,3 +1,8 @@
+---
+title: "Change PIN | PKCS #11"
+description: "CryptokiMan: Changes a token PIN by supplying the current PIN and confirming a new PIN."
+---
+
 # Change PIN Dialog
 
 ![Set PIN dialog](../images/set_pin_dlg.png)

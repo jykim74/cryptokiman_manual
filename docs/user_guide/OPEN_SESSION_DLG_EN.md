@@ -1,3 +1,8 @@
+---
+title: "Open Session | PKCS #11"
+description: "CryptokiMan: Opens a PKCS #11 session on the selected slot. A session is required for most token operations, including login and object management."
+---
+
 # Open Session Dialog
 
 ![Open session dialog](../images/open_session_dlg.png)

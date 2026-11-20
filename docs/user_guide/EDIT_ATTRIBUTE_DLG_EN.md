@@ -1,3 +1,8 @@
+---
+title: "Edit Attribute | PKCS #11"
+description: "CryptokiMan: Reads or changes an individual attribute on a selected object."
+---
+
 # Edit Attribute Dialog
 
 ![Edit attribute dialog](../images/edit_attribute_dlg.png)

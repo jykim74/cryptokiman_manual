@@ -1,3 +1,8 @@
+---
+title: "Create ECDSA Private Key | PKCS #11"
+description: "CryptokiMan: Creates an elliptic-curve private-key object, including curve parameters and private-key usage attributes."
+---
+
 # Create ECDSA Private Key Dialog
 
 ![Create EC private key dialog](../images/create_ec_pri_key_dlg.png)

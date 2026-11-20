@@ -1,3 +1,8 @@
+---
+title: "Create Data Object | PKCS #11"
+description: "CryptokiMan: Creates a PKCS #11 data object on the selected token with application data and object attributes."
+---
+
 # Create Data Object Dialog
 
 ![Create data dialog](../images/create_data_dlg.png)

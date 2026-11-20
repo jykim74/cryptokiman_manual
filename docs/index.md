@@ -1,3 +1,8 @@
+---
+title: "PKCS #11 Manager and HSM Testing Tool"
+description: "Explore CryptokiMan, a graphical PKCS #11 manager for inspecting tokens and HSMs, managing keys, and testing cryptographic operations."
+---
+
 # CryptokiMan
 
 **CryptokiMan** is a graphical manager and test utility for PKCS #11 (Cryptoki) libraries. It connects to a Cryptoki module supplied by a token or HSM vendor and provides a visual way to inspect slots, tokens, mechanisms, sessions, and cryptographic objects, then invoke supported PKCS #11 operations.

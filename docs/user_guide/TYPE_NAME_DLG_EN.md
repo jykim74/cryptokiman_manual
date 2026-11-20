@@ -1,3 +1,8 @@
+---
+title: "Type Name Utility | PKCS #11"
+description: "CryptokiMan: Converts between a PKCS #11 type name and its decimal or hexadecimal representation."
+---
+
 # Type Name Utility
 
 ![Type name dialog](../images/type_name_dlg.png)

@@ -1,3 +1,8 @@
+---
+title: "Unwrap Key | PKCS #11"
+description: "CryptokiMan: Imports a wrapped key by selecting an unwrapping key and mechanism, providing the wrapped value, and defining the new key template."
+---
+
 # Unwrap Key Dialog
 
 ![Unwrap key dialog](../images/unwrap_key_dlg.png)

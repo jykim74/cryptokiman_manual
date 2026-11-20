@@ -1,3 +1,8 @@
+---
+title: "Delete Object | PKCS #11"
+description: "CryptokiMan: Deletes one selected object or deletes all matching objects, depending on the action chosen."
+---
+
 # Delete Object Dialog
 
 

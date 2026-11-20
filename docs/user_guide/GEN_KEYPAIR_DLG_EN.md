@@ -1,3 +1,8 @@
+---
+title: "Generate Key Pair | PKCS #11"
+description: "CryptokiMan: Generates a public/private key pair on the selected token. Configure the mechanism and both key templates."
+---
+
 # Generate Key Pair Dialog
 
 ![Generate key pair dialog](../images/gen_keypair_dlg.png)

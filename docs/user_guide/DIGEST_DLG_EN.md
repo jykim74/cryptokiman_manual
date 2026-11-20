@@ -1,3 +1,8 @@
+---
+title: "Digest | PKCS #11"
+description: "CryptokiMan: Computes a message digest using a selected mechanism. Input can be supplied directly or read from a file."
+---
+
 # Digest Dialog
 
 

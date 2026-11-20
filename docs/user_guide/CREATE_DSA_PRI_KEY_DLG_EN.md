@@ -1,3 +1,8 @@
+---
+title: "Create DSA Private Key | PKCS #11"
+description: "CryptokiMan: Creates a DSA private-key object with key material, identifying information, and private-key usage attributes."
+---
+
 # Create DSA Private Key Dialog
 
 ![Create DSA private key dialog](../images/create_dsa_pri_key_dlg.png)

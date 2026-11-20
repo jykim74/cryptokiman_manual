@@ -1,3 +1,8 @@
+---
+title: "Sign Data | PKCS #11"
+description: "CryptokiMan: Signs data with a selected private key and mechanism. Input can be entered directly or read from a file; multi-part operations are supported."
+---
+
 # Sign Data Dialog
 
 ![Sign dialog](../images/sign_dlg.png)

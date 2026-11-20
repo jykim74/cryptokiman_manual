@@ -1,3 +1,8 @@
+---
+title: "Import Certificate | PKCS #11"
+description: "CryptokiMan: Loads a certificate file and creates a certificate object on the selected token with the chosen attributes."
+---
+
 # Import Certificate Dialog
 
 ![Import certificate dialog](../images/import_cert_dlg.png)

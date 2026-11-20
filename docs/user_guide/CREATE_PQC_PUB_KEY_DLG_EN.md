@@ -1,3 +1,8 @@
+---
+title: "Create PQC Public Key | PKCS #11"
+description: "CryptokiMan: Creates a post-quantum cryptography public-key object for a supported algorithm and parameter set."
+---
+
 # Create PQC Public Key Dialog
 
 ![Create PQC public key dialog](../images/create_pqc_pub_key_dlg.png)

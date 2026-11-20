@@ -1,3 +1,8 @@
+---
+title: "Encrypt | PKCS #11"
+description: "CryptokiMan: Encrypts input data with a selected key and mechanism. It supports operation parameters, direct input or source files, and output to a destination file."
+---
+
 # Encrypt Dialog
 
 

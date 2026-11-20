@@ -1,3 +1,9 @@
+---
+title: "Menu Guide (Legacy)"
+description: "Browse the legacy CryptokiMan menu guide for PKCS #11 modules, sessions, objects, and cryptographic operations."
+robots: noindex, follow
+---
+
 # CryptokiMan Menu Guide
 
 This guide summarizes CryptokiMan's menus and the actions they provide for tokens, sessions, objects, and cryptographic operations.

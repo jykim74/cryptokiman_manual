@@ -1,3 +1,8 @@
+---
+title: "License Features and Availability"
+description: "Compare CryptokiMan features available with and without a valid license, including PKCS #11 sessions, object management, and cryptographic operations."
+---
+
 # CryptokiMan Features by License Status
 
 CryptokiMan checks for a valid license at startup. The comparison below describes the application controls in the current source. Actual operations also depend on the loaded PKCS #11 module, token capabilities, and token permissions.

@@ -1,3 +1,8 @@
+---
+title: "Import PFX | PKCS #11"
+description: "CryptokiMan: Imports a PKCS #12/PFX file and configures the certificate, private-key, and public-key objects extracted from it."
+---
+
 # Import PFX Dialog
 
 ![Import PFX dialog](../images/import_pfx_dlg.png)

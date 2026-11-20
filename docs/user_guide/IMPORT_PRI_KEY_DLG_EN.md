@@ -1,3 +1,8 @@
+---
+title: "Import Private Key | PKCS #11"
+description: "CryptokiMan: Imports a supported private-key file. You can provide a password for encrypted input and configure the key attributes."
+---
+
 # Import Private Key Dialog
 
 ![Import private key dialog](../images/import_pri_key_dlg.png)

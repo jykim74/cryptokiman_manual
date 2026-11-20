@@ -1,3 +1,8 @@
+---
+title: "Create Key Object | PKCS #11"
+description: "CryptokiMan: Creates a key object from selected key information and object attributes."
+---
+
 # Create Key Object Dialog
 
 

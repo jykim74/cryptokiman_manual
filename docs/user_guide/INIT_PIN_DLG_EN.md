@@ -1,3 +1,8 @@
+---
+title: "Initialize User PIN | PKCS #11"
+description: "CryptokiMan: Sets the initial user PIN on the selected token. Enter and confirm the PIN; security-officer authorization is normally required."
+---
+
 # Initialize User PIN Dialog
 
 ![Initialize PIN dialog](../images/init_pin_dlg.png)

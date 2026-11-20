@@ -1,3 +1,8 @@
+---
+title: "Random Data | PKCS #11"
+description: "CryptokiMan: Generates random bytes or supplies seed data using the selected token session."
+---
+
 # Random Data Dialog
 
 ![Random data dialog](../images/rand_dlg.png)

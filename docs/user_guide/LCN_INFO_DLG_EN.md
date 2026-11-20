@@ -1,3 +1,8 @@
+---
+title: "License Information | PKCS #11"
+description: "CryptokiMan: Displays CryptokiMan license status and provides controls for requesting, obtaining, updating, using, or removing a license."
+---
+
 # License Information Dialog
 
 ![License information dialog](../images/lcn_info_dlg.png)

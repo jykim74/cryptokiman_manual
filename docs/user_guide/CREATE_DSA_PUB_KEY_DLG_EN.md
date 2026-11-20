@@ -1,3 +1,8 @@
+---
+title: "Create DSA Public Key | PKCS #11"
+description: "CryptokiMan: Creates a DSA public-key object with public-key material, domain parameters, and public-key usage attributes."
+---
+
 # Create DSA Public Key Dialog
 
 

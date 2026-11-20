@@ -1,3 +1,8 @@
+---
+title: "Settings | PKCS #11"
+description: "CryptokiMan: Configures CryptokiMan preferences for logging, display, language, file reading, object searches, and update checks."
+---
+
 # Settings Dialog
 
 ![Settings dialog](../images/settings_dlg.png)
