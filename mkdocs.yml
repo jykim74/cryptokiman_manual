@@ -7,11 +7,14 @@ theme:
   name: material
   favicon: assets/cryptokiman.png
   custom_dir: overrides
-  analytics:
-    gtag: G-287S0CKBNS
   logo: assets/cryptokiman.png
   palette:
     primary: blue
+
+extra:
+  analytics:
+    provider: google
+    property: G-F2PVWTSETP
 
 plugins:
   - search
