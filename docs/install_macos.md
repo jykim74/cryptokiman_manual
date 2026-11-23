@@ -1,11 +1,17 @@
 ---
-title: "CryptokiMan on macOS"
-description: "Find the current status of macOS download and installation instructions for CryptokiMan and links to general setup guidance."
-robots: noindex, follow
+title: "Install CryptokiMan on macOS"
+description: "Install CryptokiMan on macOS using the disk image and Applications folder."
 ---
 
-# CryptokiMan Installation on macOS
+# Install CryptokiMan on macOS
 
-Mac-specific download and installation instructions are not currently available in this manual. Check the CryptokiMan distribution for a macOS package and its installation instructions before proceeding.
+1. Open the downloaded CryptokiMan disk image (`.dmg`). A window like the one below will appear.
 
-For general setup, see [Getting Started](get_start.md).
+   ![CryptokiMan disk image window showing the app and Applications folder](more_images/install_macos.png)
+
+2. Click and hold the **CryptokiMan** icon.
+3. Drag it onto the **Applications** folder icon, then release the mouse button.
+4. Wait for the copy to finish, then eject the CryptokiMan disk image.
+5. Open **Applications** and double-click **CryptokiMan** to launch it.
+
+If macOS asks you to confirm that you want to open the app, review the prompt and choose **Open**.
